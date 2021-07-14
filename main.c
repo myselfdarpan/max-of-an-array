@@ -13,7 +13,7 @@ int main()
         scanf("%d", &n);
         for(i=0;i<n;i++)
             scanf("%d", &arr[i]);
-        printf("%d", largest(arr, n));
+        printf("Largest element is %d", largest(arr, n));
         printf("\n");
     }
     return 0;
